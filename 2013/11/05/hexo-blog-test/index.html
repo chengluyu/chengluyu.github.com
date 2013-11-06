@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Iteration</title>
+  <title>博客测试日志 | Iteration</title>
   <meta name="author" content="Cheng Luyu">
   
   <meta name="description" content="Drown in iteration">
@@ -11,7 +11,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  
+  <meta property="og:title" content="博客测试日志"/>
   <meta property="og:site_name" content="Iteration"/>
 
   
@@ -120,9 +120,7 @@
       </div><!-- left-col -->
       <div class="mid-col">
         <div class="mid-col-container">
-	    <div id="content" class="inner"><div itemscope itemtype="http://schema.org/Blog">
-
-  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+	    <div id="content" class="inner"><article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   
 	<div class="meta">
           
@@ -142,90 +140,82 @@
 </div>
 
           
-
- 
- <div class="tags">
-   <a href="/tags/Miscellaneous/">Miscellaneous</a>
- </div>
-
+          
+<div class="print">打印后</div>
 
           
 	</div>
-        <h1 class="title" itemprop="name">
-          <a href="/2013/11/05/hexo-blog-test/" itemprop="url">
-            博客测试日志</a>
-        </h1>
-        <div class="entry-content" itemprop="articleBody">
-          
-            <p>第一篇日志用于测试 Hexo 博客的各种效果。</p>
+        <h1 class="title" itemprop="name">博客测试日志</h1>
+      	<div class="entry-content" itemprop="articleBody"><p>第一篇日志用于测试 Hexo 博客的各种效果。</p>
+<a id="more"></a>
 
-            <a href="/2013/11/05/hexo-blog-test/" class="more-link">
-              Continue →
-            </2a>
-          
-        </div>
+<h4>MathJax</h4>
+<p>$$\Delta=b^2-4ac$$<br>$$x=\frac{-b\pm \sqrt\Delta}{2a}$$</p>
+<h4>代码高亮</h4>
+<figure class="highlight lang-cpp"><table><tr><td class="gutter"><pre>1
+2
+3
+</pre></td><td class="code"><pre><span class="keyword">int</span> main() {
+    <span class="keyword">return</span> <span class="number">0</span>;
+}
+</pre></td></tr></table></figure>
+
+<h4>Markdown 基本语法</h4>
+<blockquote>
+<p>引言</p>
+</blockquote>
+<ol>
+<li>列表 1</li>
+<li>列表 2</li>
+</ol>
+<hr>
+<ul>
+<li>无序列表</li>
+<li>无序列表</li>
+<li>无序列表</li>
+</ul>
+<hr>
+<p>行内测试，<em>强调</em>，<strong>加倍强调</strong>，<strong><em>加加倍强调</em></strong>，<del>你知道的太多了</del>，<code>Code</code>。</p>
+<blockquote>
+<p>Written with <a href="https://stackedit.io/" target="_blank">StackEdit</a>.</p>
+</blockquote>
+</div>
 
 
 </article>
 
-
-
-
-  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="share">
+  <div class="addthis_toolbox addthis_default_style ">
   
-	<div class="meta">
-          
-<div class="date">
-
-<time datetime="2013-11-05T08:35:03.000Z"
-      
-      data-updated="true"
-       itemprop="datePublished">
-  11月 5 2013
-</time>
-
-
-
-
-
+  
+  <a class="addthis_button_tweet"></a>
+  
+  
+  <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+  
+  
+  </div>
+  <script type="text/javascript">
+    var addthis_config = {"data_track_addressbar":true};
+  </script>
+  <script type="text/javascript"
+          src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=null">
+  </script>
 </div>
 
-          
-
- 
- <div class="tags">
-   <a href="/tags/Miscellaneous/">Miscellaneous</a>
- </div>
 
 
-          
-	</div>
-        <h1 class="title" itemprop="name">
-          <a href="/2013/11/05/hello-world/" itemprop="url">
-            你好，世界</a>
-        </h1>
-        <div class="entry-content" itemprop="articleBody">
-          
-            <p>Welcome to <a href="http://zespia.tw/hexo" target="_blank">Hexo</a>! This is your very first post. Check <a href="http://zespia.tw/hexo/docs" target="_blank">documentation</a> to learn how to use.</p>
+<section id="comment">
+    <h1 class="title">Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the
+  <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
 
-          
-        </div>
-
-
-</article>
-
-
-
-
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 </div>
+</section>
 
-<nav id="pagenavi">
-    
-    
-    <div class="center">
-      <a href="archives">Blog Archives</a>
-    </div>
-</nav>
+
 </div>
 	</div>
         <footer id="footer" class="inner">
@@ -245,7 +235,7 @@
     var dsq = document.createElement('script');
     dsq.type = 'text/javascript';
     dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
   }());
   </script>
